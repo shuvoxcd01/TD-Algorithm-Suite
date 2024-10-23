@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "td_suite"
+version = "0.0.1"
+dependencies = ["gymnasium==0.29.1", "matplotlib==3.7.5", "numpy==1.24.4","tqdm>=4.66.5", "dill==0.3.8"]
+requires-python = ">= 3.8"
+authors=[{name="Falguni Das Shuvo"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["Temporal Difference", "TD Control","TD Prediction", "Reinforcement Learning", "SARSA", "Q-Learning"]
+
+[project.urls]
+Repository = "https://github.com/shuvoxcd01/TD-Algorithm-Suite.git"
